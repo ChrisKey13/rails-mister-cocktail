@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h1><%= @cocktail.name %></h1>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th scope="row">Name</th>
+            <td><%= @cocktail.name %></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <%= simple_form_for [@cocktail] do |f| %>
+        <%= f.input :name %>
+        <%= @cocktail.ingredients%>
+        <%= f.submit class: 'btn btn-primary' %>
+      <% end %>
+      <%= link_to "See all cocktails", cocktails_path, class: 'btn btn-success' %>
+      <%= link_to "See all ingredients", ingredients_path, class: 'btn btn-danger' %>
+    </div>
+  </div>
+</div>
