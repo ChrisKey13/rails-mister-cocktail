@@ -14,11 +14,10 @@
 
       <%= simple_form_for [@cocktail] do |f| %>
         <%= f.input :name %>
-        <%= @cocktail.ingredients%>
         <%= f.submit class: 'btn btn-primary' %>
       <% end %>
       <%= link_to "See all cocktails", cocktails_path, class: 'btn btn-success' %>
-      <%= link_to "See all ingredients", ingredients_path, class: 'btn btn-danger' %>
+
     </div>
   </div>
 </div>
