@@ -4,3 +4,21 @@
 @import "navbar";
 @import "banner";
 @import "cards";
+@import "landing";
+
+
+
+
+.container p {
+  color: white;
+  font-weight: bolder;
+  font-size: 34px;
+}
+.container a {
+  font-size: 18px;
+}
+
+
+body {
+  background-color: white;
+}

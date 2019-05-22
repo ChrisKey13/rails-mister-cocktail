@@ -1,8 +1,12 @@
 .home-banner {
-  background-image: url('https://images.unsplash.com/photo-1485265449635-ca623a55e95c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  background-image: url('https://images.pexels.com/photos/605408/pexels-photo-605408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
   height: 100vh;
   color: #eee;
-  text-align: center;
-  padding-top: 40vh;
+  }
+.home-banner h1 {
+  color: white;
+  font-size: 72px;
+  margin-top: 100px;
+  margin-bottom: 330px;
 }
